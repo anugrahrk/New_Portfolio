@@ -6,9 +6,7 @@ function ProjectContainer({name,image,desc,tag,github,live}) {
   const[load,setLoad]=useState(false)
   return (
     <div className=' group border dark:border-gray-700 border-gray-200  rounded-2xl p-3 hover:shadow-lg shadow-gray-700 backdrop-blur-sm'>
-        <div className=''>{!load &&
-          <div className='w-[430px] h-55 rounded-lg bg-gray-500 ease-in-out place-self-center border border-gray-200 dark:border-gray-700'></div>
-          }
+        <div className=''>
           <img onLoad={()=>setLoad(true)} className={`w-105 object-cover ${load?"opacity-100":"opacity-0"} rounded-lg transform hover:scale-104  transition-transform duration-300 group-hover:scale-101 ease-in-out place-self-center border border-gray-200 dark:border-gray-700`}  src={image} alt="" />
 
 </div>
