@@ -49,8 +49,8 @@ function Contact() {
         </div>
 
         <div className='relative top-140 md:p-11 md:left-1/2 md:top-32 md:w-150 dark:text-white  place-self-center border border-gray-200 dark:border-gray-700 rounded-2xl p-8 w-sm ml-3 mr-3 backdrop-blur-sm mb-1'>
-          <div className='pr-6'>
-          <div className='font-semibold text-2xl pr-20 pb-5'>Connect with me</div>
+          <div className='pr-3'>
+          <div className='font-semibold text-2xl pr-15 pb-5'>Connect with me</div>
           <div onClick={()=>window.open("https://x.com/rk_anugrah")} className='flex group pt-5 cursor-pointer dark:hover:bg-gray-800 hover:bg-blue-50 pb-4 rounded-lg  mb-2'>
             <div className='rounded-md  pl-3 pr-3 pt-1'><FaXTwitter className=' size-6 group-hover:text-blue-500'/></div>
           
