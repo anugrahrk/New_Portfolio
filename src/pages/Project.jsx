@@ -10,9 +10,9 @@ function Project() {
     const project=[{
       name:"Food Ordering Website(Frontend)",
       desc:"Created a food ordering website using react and vite also used recoil for state management.",
-      github:"github",
+      github:"https://github.com/anugrahrk/nextcrest",
       img:"/nextcrest.png",
-      live:"livelink",
+      live:"https://nextcrest.vercel.app/",
       tags:["React","Recoil","TailwindCSS"]
     }]
   return (

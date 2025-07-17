@@ -51,28 +51,28 @@ function Contact() {
         <div className='relative top-130 md:left-1/2 md:top-30 md:w-150 dark:text-white  place-self-center border border-gray-200 dark:border-gray-700 rounded-2xl p-11 backdrop-blur-sm mb-1'>
           <div className='pr-6'>
           <div className='font-semibold text-2xl pr-20 pb-5'>Connect with me</div>
-          <div className='flex group pt-5 dark:hover:bg-gray-800 hover:bg-blue-50 pb-4 rounded-lg  mb-2'>
+          <div onClick={()=>window.open("https://x.com/rk_anugrah")} className='flex group pt-5 cursor-pointer dark:hover:bg-gray-800 hover:bg-blue-50 pb-4 rounded-lg  mb-2'>
             <div className='rounded-md  pl-3 pr-3 pt-1'><FaXTwitter className=' size-6 group-hover:text-blue-500'/></div>
           
           <div className='pl-5'>
             <div className='font-semibold text-lg'>Twitter </div>
           </div>
           </div>
-          <div className='flex group pt-5 dark:hover:bg-gray-800 hover:bg-red-50 pb-4 rounded-lg  mb-2'>
+          <div onClick={()=>window.open("mailto:anugrahrk6@gmail.com?subject=Portfolio Inquiry&body=Hey, I saw your portfolio and wanted to connect.")} className='flex group pt-5 cursor-pointer dark:hover:bg-gray-800 hover:bg-red-50 pb-4 rounded-lg  mb-2'>
             <div className='rounded-md  pl-3 pr-3 pt-1'><CiMail className=' size-6 group-hover:text-red-500'/></div>
           
           <div className='pl-5'>
             <div className='font-semibold text-lg'>Email </div>
           </div>
           </div>
-          <div className='flex group pt-5 dark:hover:bg-gray-800 hover:bg-green-50 pb-4 rounded-lg  mb-2'>
+          <div onClick={()=>window.open("https://web.whatsapp.com/send?phone=918075597891&text=Hi!%20I%20just%20came%20across%20your%20portfolio%20and%20wanted%20to%20get%20in%20touch.")} className='flex group pt-5 cursor-pointer dark:hover:bg-gray-800 hover:bg-green-50 pb-4 rounded-lg  mb-2'>
             <div className='rounded-md  pl-3 pr-3 pt-1'><FaWhatsapp className=' size-6 group-hover:text-green-500' /></div>
           
           <div className='pl-5'>
             <div className='font-semibold text-lg'>WhatsApp </div>
           </div>
           </div>
-          <div className='flex group pt-5 dark:hover:bg-gray-800 hover:bg-blue-50 pb-4 rounded-lg  mb-2'>
+          <div onClick={()=>window.open("https://www.linkedin.com/in/anugrahrk/")} className='flex group pt-5 cursor-pointer dark:hover:bg-gray-800 hover:bg-blue-50 pb-4 rounded-lg  mb-2'>
             <div className='rounded-md  pl-3 pr-3 pt-1'><FiLinkedin className=' size-6 group-hover:text-blue-500'/></div>
           
           <div className='pl-5'>
