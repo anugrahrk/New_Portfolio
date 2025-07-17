@@ -43,7 +43,7 @@ function About() {
 <div className='font-sans font-light text-md pb-2'> I’m actively looking for opportunities where I can apply my skills, learn from real-world challenges, and contribute to impactful products as part of a collaborative team.</div>
         </div>
       <div className='pt-3 pb-5 text-xl font-semibold font-sans'>Skills</div>
-      <div className='grid grid-cols-3 gap-3 md:grid-cols-6'>
+      <div className='grid grid-cols-3 md:gap-3 md:grid-cols-6'>
         {techList.map((tech)=><DraggableButtons key={tech.name} icon={tech.icon} color={tech.color} name={tech.name}></DraggableButtons>)}</div>
     
       </div>
