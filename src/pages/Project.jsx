@@ -14,6 +14,14 @@ function Project() {
       img:"/nextcrest.png",
       live:"https://nextcrest.vercel.app/",
       tags:["React","Recoil","TailwindCSS"]
+    },
+  {
+      name:"Paywallet",
+      desc:"Created a full stack money wallet where user can signup and send money to the other users.",
+      github:"https://github.com/anugrahrk/PayWallet",
+      img:"/paywallet.png",
+      live:"https://pay-wallet-front.vercel.app/",
+      tags:["React","MongoDB","Express.js","Node.js"]
     }]
   return (
     <div>
