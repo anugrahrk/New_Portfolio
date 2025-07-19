@@ -18,7 +18,7 @@ function Contact() {
         <Background></Background>
       <Header />
       <div className='md:flex md:justify-between p-5' >
-        <div className='absolute  top-35 dark:text-white  place-self-center border border-gray-200 dark:border-gray-700 md:w-150 md:h-106  rounded-2xl m-2 p-10 md:pt-14 backdrop-blur-sm'>
+        <div className='absolute w-[300px]  top-35 dark:text-white  place-self-center border border-gray-200 dark:border-gray-700 md:w-150 md:h-106  rounded-2xl m-2 p-10 md:pt-14 backdrop-blur-sm'>
           <div className='font-semibold text-2xl pr-20 pb-10'>Contact Information</div>
           <div className='flex'>
             <div className='rounded-md dark:bg-gray-700 bg-gray-200 pl-3 pr-3 pt-3'>
@@ -48,7 +48,7 @@ function Contact() {
           </div>
         </div>
 
-        <div className='relative top-140 md:p-11 md:left-1/2 md:top-32 md:w-150 dark:text-white  place-self-center border border-gray-200 dark:border-gray-700 rounded-2xl p-8 w-sm ml-3 mr-3 backdrop-blur-sm mb-1'>
+        <div className='relative top-140 md:p-11 md:left-1/2 md:top-32 md:w-150 dark:text-white  place-self-center border border-gray-200 dark:border-gray-700 rounded-2xl p-8 w-[300px] ml-3 mr-3 backdrop-blur-sm mb-1'>
           <div className='pr-3'>
           <div className='font-semibold text-2xl pr-15 pb-5'>Connect with me</div>
           <div onClick={()=>window.open("https://x.com/rk_anugrah")} className='flex group pt-5 cursor-pointer dark:hover:bg-gray-800 hover:bg-blue-50 pb-4 rounded-lg  mb-2'>
