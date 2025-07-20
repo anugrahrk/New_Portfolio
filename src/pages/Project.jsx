@@ -28,7 +28,7 @@ function Project() {
       <div className={`${!theme?'dark':''}`}>
         <Background></Background>
       <Header />
-      <div className='absolute dark:text-white top-30 text-3xl font-bold font-sans place-self-center'>My Projects</div>
+      <div className='absolute dark:text-white top-30 left-25 md:left-1/2 text-3xl font-bold font-sans md:place-self-center'>My Projects</div>
       <div className='absolute gap-6 top-45 p-2 md:pl-5 grid grid-cols-1 md:grid-cols-3 md:gap3'>
         {project.map((item)=><ProjectContainer name={item.name} image={item.img} desc={item.desc} tag={item.tags} github={item.github}
         live={item.live}/>)}
