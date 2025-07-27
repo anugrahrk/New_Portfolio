@@ -8,7 +8,7 @@ import ProjectContainer from '../components/ProjectContainer'
 function Project() {
     const [theme, setTheme] = useAtom(ThemeAtom)
     const project=[{
-      name:"Food Ordering Website(Frontend)",
+      name:"FoodCrest",
       desc:"Created a food ordering website using react and vite also used recoil for state management.",
       github:"https://github.com/anugrahrk/nextcrest",
       img:"/nextcrest.png",
