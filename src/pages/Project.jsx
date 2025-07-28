@@ -22,6 +22,13 @@ function Project() {
       img:"/paywallet.png",
       live:"https://pay-wallet-front.vercel.app/",
       tags:["React","MongoDB","Express.js","Node.js"]
+    },{
+      name:"JobBoard",
+      desc:"Web Application that let you track all your job applications.",
+      github:"https://github.com/anugrahrk/JobBoard",
+      img:"/JobBoard.png",
+      live:"https://job-board-gamma-silk.vercel.app/",
+      tags:["MERN","REST API","Tailwind CSS"]
     }]
   return (
     <div>

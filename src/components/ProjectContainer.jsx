@@ -7,7 +7,7 @@ function ProjectContainer({name,image,desc,tag,github,live}) {
   return (
     <div className=' group border dark:border-gray-700 border-gray-200  rounded-2xl p-3 hover:shadow-lg shadow-gray-700 backdrop-blur-sm'>
         <div className=''>
-          <img onLoad={()=>setLoad(true)} className={`w-[400px] h-[180px] object-cover ${load?"opacity-100":"opacity-0"} rounded-lg transform hover:scale-104  transition-transform duration-300 group-hover:scale-101 ease-in-out place-self-center border border-gray-200 dark:border-gray-700`}  src={image} alt="" />
+          <img onLoad={()=>setLoad(true)} className={`w-[400px] h-[180px] object-contain  ${load?"opacity-100":"opacity-0"} rounded-lg transform hover:scale-104  transition-transform duration-300 group-hover:scale-101 ease-in-out place-self-center border border-gray-200 dark:border-gray-700`}  src={image} alt="" />
 
 </div>
         <div className='dark:text-white group-hover:text-blue-400 pt-2 text-xl font-semibold' >{name}</div>
