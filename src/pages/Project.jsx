@@ -17,7 +17,7 @@ function Project() {
     },
   {
       name:"Paywallet",
-      desc:"Created a full stack money wallet where user can signup and send money to the other users.",
+      desc:"Created a fullstack money wallet where user can signup and send money to the other users.",
       github:"https://github.com/anugrahrk/PayWallet",
       img:"/paywallet.png",
       live:"https://pay-wallet-front.vercel.app/",
@@ -29,6 +29,13 @@ function Project() {
       img:"/JobBoard.png",
       live:"https://job-board-gamma-silk.vercel.app/",
       tags:["MERN","REST API","Tailwind CSS"]
+    },{
+      name:"BioSynthesis",
+      desc:"Static landing webpage",
+      github:"https://github.com/anugrahrk/Photosynthesis",
+      img:"/Biosynthesis.png",
+      live:"https://anugrahrk.github.io/Photosynthesis/",
+      tags:["HTML","CSS"]
     }]
   return (
     <div>
