@@ -36,6 +36,14 @@ function Project() {
       img:"/Biosynthesis.png",
       live:"https://anugrahrk.github.io/Photosynthesis/",
       tags:["HTML","CSS"]
+    },
+  ,{
+      name:"Habit Hero",
+      desc:"Fullstack Habit tracker with AI intergration",
+      github:"https://github.com/anugrahrk/Habit-Hero",
+      img:"/habittracker.png",
+      live:"https://habit-hero-ten.vercel.app/",
+      tags:["React","Flask","PSQL","Jotai","Gemini-API"]
     }]
   return (
     <div>
