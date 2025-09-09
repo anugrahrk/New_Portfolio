@@ -21,14 +21,14 @@ function Project() {
       github:"https://github.com/anugrahrk/PayWallet",
       img:"/paywallet.png",
       live:"https://pay-wallet-front.vercel.app/",
-      tags:["React","MongoDB","Express.js","Node.js"]
+      tags:["React","MongoDB","Express","Node"]
     },{
       name:"JobBoard",
       desc:"Web Application that let you track all your job applications.",
       github:"https://github.com/anugrahrk/JobBoard",
       img:"/JobBoard.png",
       live:"https://job-board-gamma-silk.vercel.app/",
-      tags:["MERN","REST API","Tailwind CSS"]
+      tags:["React","Express","Node","MongoDB","Tailwind"]
     },{
       name:"BioSynthesis",
       desc:"Static landing webpage",
@@ -43,7 +43,14 @@ function Project() {
       github:"https://github.com/anugrahrk/Habit-Hero",
       img:"/habittracker.png",
       live:"https://habit-hero-ten.vercel.app/",
-      tags:["React","Flask","PSQL","Jotai","Gemini-API"]
+      tags:["React","Flask","PostgreSQL","Jotai","Gemini-API"]
+    },{
+      name:"WriteBlogs",
+      desc:"A modern blogging platform inspired by Medium",
+      github:"https://github.com/anugrahrk/meduim_clone",
+      img:"/meduim.png",
+      live:"https://meduim-clone-three.vercel.app/signup",
+      tags:["React","Hono","Prisma","Typescript"]
     }]
   return (
     <div>
